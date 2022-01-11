@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] C:\Users\Stelian\Desktop\proiect2\.\src\files\reader\ChildUpdateLoader.java:35:5: Class 'ChildUpdateLoader' looks like designed for extension (can be subclassed), but the method 'getElf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'ChildUpdateLoader' final or making the method 'getElf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+Audit done.
+Checkstyle ends with 1 errors.
