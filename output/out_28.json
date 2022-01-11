@@ -13,18 +13,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -39,8 +36,7 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     }, {
       "id" : 3,
@@ -55,8 +51,7 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       } ]
     }, {
       "id" : 4,
@@ -71,8 +66,7 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     } ]
   }, {
@@ -89,23 +83,19 @@
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 7
+        "category" : "Technology"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       } ]
     }, {
       "id" : 1,
@@ -120,8 +110,7 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     }, {
       "id" : 3,
@@ -136,8 +125,7 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       } ]
     }, {
       "id" : 4,
@@ -152,18 +140,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     } ]
   }, {
@@ -180,18 +165,15 @@
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       } ]
     }, {
       "id" : 1,
@@ -206,8 +188,7 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     }, {
       "id" : 3,
@@ -222,8 +203,7 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       } ]
     }, {
       "id" : 4,
@@ -238,13 +218,11 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 5,
@@ -270,18 +248,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     } ]
   }, {
@@ -298,23 +273,19 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -329,13 +300,11 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 7
+        "category" : "Technology"
       } ]
     }, {
       "id" : 3,
@@ -350,8 +319,7 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       } ]
     }, {
       "id" : 4,
@@ -366,13 +334,11 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 5,
@@ -387,13 +353,11 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     }, {
       "id" : 6,
@@ -408,18 +372,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     } ]
   }, {
@@ -436,23 +397,19 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -467,18 +424,15 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       } ]
     }, {
       "id" : 3,
@@ -493,13 +447,11 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 2
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 4,
@@ -514,13 +466,11 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 2
+        "category" : "Clothes"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       } ]
     }, {
       "id" : 5,
@@ -535,18 +485,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 2
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 6,
@@ -561,28 +508,23 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 2
+        "category" : "Clothes"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     } ]
   }, {
@@ -599,23 +541,19 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -630,18 +568,15 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       } ]
     }, {
       "id" : 3,
@@ -656,13 +591,11 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 2
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 4,
@@ -677,18 +610,15 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 2
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 5,
@@ -703,18 +633,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     }, {
       "id" : 6,
@@ -729,28 +656,23 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 2
+        "category" : "Clothes"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 7
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 7,
@@ -765,8 +687,7 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 2
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 8,
@@ -781,8 +702,7 @@
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 6
+        "category" : "Board Games"
       } ]
     } ]
   } ]

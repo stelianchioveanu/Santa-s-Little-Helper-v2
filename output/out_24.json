@@ -13,13 +13,11 @@
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
-        "category" : "Toys",
-        "quantity" : 4
+        "category" : "Toys"
       } ]
     }, {
       "id" : 3,
@@ -34,13 +32,11 @@
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
-        "category" : "Toys",
-        "quantity" : 4
+        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -57,18 +53,15 @@
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
-        "category" : "Clothes",
-        "quantity" : 6
+        "category" : "Clothes"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
-        "category" : "Toys",
-        "quantity" : 4
+        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -85,13 +78,11 @@
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
-        "category" : "Toys",
-        "quantity" : 4
+        "category" : "Toys"
       } ]
     }, {
       "id" : 5,
@@ -106,8 +97,7 @@
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     } ]
   }, {
@@ -124,18 +114,15 @@
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
-        "category" : "Toys",
-        "quantity" : 4
+        "category" : "Toys"
       }, {
         "productName" : "Handbag",
         "price" : 200.0,
-        "category" : "Clothes",
-        "quantity" : 6
+        "category" : "Clothes"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       } ]
     }, {
       "id" : 5,
@@ -150,13 +137,11 @@
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
-        "category" : "Toys",
-        "quantity" : 4
+        "category" : "Toys"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     } ]
   }, {
@@ -173,18 +158,15 @@
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 6
+        "category" : "Clothes"
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
-        "category" : "Toys",
-        "quantity" : 4
+        "category" : "Toys"
       } ]
     }, {
       "id" : 5,
@@ -199,18 +181,15 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 6
+        "category" : "Clothes"
       }, {
         "productName" : "Teddy Bear",
         "price" : 5.0,
-        "category" : "Toys",
-        "quantity" : 4
+        "category" : "Toys"
       }, {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 6,
@@ -225,13 +204,11 @@
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 6
+        "category" : "Clothes"
       } ]
     } ]
   } ]

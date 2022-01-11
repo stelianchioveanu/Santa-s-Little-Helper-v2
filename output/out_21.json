@@ -13,28 +13,23 @@
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 2
+        "category" : "Sweets"
       }, {
         "productName" : "Puzzle",
         "price" : 50.0,
-        "category" : "Board Games",
-        "quantity" : 1
+        "category" : "Board Games"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Iphone",
         "price" : 700.0,
-        "category" : "Technology",
-        "quantity" : 6
+        "category" : "Technology"
       }, {
         "productName" : "Car",
         "price" : 20.0,
-        "category" : "Toys",
-        "quantity" : 6
+        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -55,18 +50,15 @@
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
-        "category" : "Sweets",
-        "quantity" : 2
+        "category" : "Sweets"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 5
+        "category" : "Clothes"
       }, {
         "productName" : "Iphone",
         "price" : 700.0,
-        "category" : "Technology",
-        "quantity" : 6
+        "category" : "Technology"
       } ]
     } ]
   } ]

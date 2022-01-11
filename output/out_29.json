@@ -13,18 +13,15 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       } ]
     }, {
       "id" : 1,
@@ -39,23 +36,19 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 5
+        "category" : "Technology"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
@@ -70,18 +63,15 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       } ]
     }, {
       "id" : 3,
@@ -96,13 +86,11 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     } ]
   }, {
@@ -119,18 +107,15 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       } ]
     }, {
       "id" : 1,
@@ -145,18 +130,15 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
@@ -171,23 +153,19 @@
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     }, {
       "id" : 3,
@@ -202,18 +180,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     } ]
   }, {
@@ -230,23 +205,19 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       } ]
     }, {
       "id" : 2,
@@ -261,23 +232,19 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 3,
@@ -292,28 +259,23 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 5
+        "category" : "Technology"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 4,
@@ -328,8 +290,7 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     }, {
       "id" : 5,
@@ -344,18 +305,15 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       } ]
     } ]
   }, {
@@ -372,23 +330,19 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       } ]
     }, {
       "id" : 2,
@@ -403,23 +357,19 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 3,
@@ -434,28 +384,23 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 5
+        "category" : "Technology"
       }, {
         "productName" : "Uno",
         "price" : 10.0,
-        "category" : "Board Games",
-        "quantity" : 8
+        "category" : "Board Games"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 8
+        "category" : "Toys"
       } ]
     }, {
       "id" : 4,
@@ -470,8 +415,7 @@
       "receivedGifts" : [ {
         "productName" : "Twilight",
         "price" : 30.0,
-        "category" : "Books",
-        "quantity" : 2
+        "category" : "Books"
       } ]
     } ]
   } ]

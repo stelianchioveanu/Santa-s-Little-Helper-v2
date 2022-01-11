@@ -2,6 +2,7 @@ package children;
 
 import enums.Category;
 import enums.Cities;
+import enums.ElvesType;
 import files.reader.ChildLoader;
 import gift.Gift;
 
@@ -18,6 +19,7 @@ public abstract class Child {
     protected final ArrayList<Double> niceScoreHistory;
     protected Double assignedBudget;
     protected final ArrayList<Gift> receivedGifts;
+    protected ElvesType elf;
 
     public Child(final ChildLoader childLoader) {
         this.id = childLoader.getId();
@@ -32,6 +34,7 @@ public abstract class Child {
         this.niceScoreHistory.add(childLoader.getNiceScore());
         this.assignedBudget = 0.0;
         this.receivedGifts = new ArrayList<>();
+        this.elf = childLoader.getElf();
     }
 
     public Child(final Child child) {
@@ -45,6 +48,7 @@ public abstract class Child {
         this.niceScoreHistory = child.niceScoreHistory;
         this.assignedBudget = child.assignedBudget;
         this.receivedGifts = child.receivedGifts;
+        this.elf = child.elf;
     }
 
     /**
@@ -115,6 +119,14 @@ public abstract class Child {
      */
     public ArrayList<Gift> getReceivedGifts() {
         return receivedGifts;
+    }
+
+    public ElvesType getElf() {
+        return elf;
+    }
+
+    public void setElf(ElvesType elf) {
+        this.elf = elf;
     }
 
     /**

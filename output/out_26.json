@@ -13,28 +13,23 @@
       "receivedGifts" : [ {
         "productName" : "Laptop",
         "price" : 500.0,
-        "category" : "Technology",
-        "quantity" : 1
+        "category" : "Technology"
       }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -49,13 +44,11 @@
       "receivedGifts" : [ {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 2,
@@ -70,18 +63,15 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 3,
@@ -96,8 +86,7 @@
       "receivedGifts" : [ {
         "productName" : "Laptop",
         "price" : 500.0,
-        "category" : "Technology",
-        "quantity" : 1
+        "category" : "Technology"
       } ]
     } ]
   }, {
@@ -114,23 +103,19 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       } ]
     }, {
       "id" : 1,
@@ -145,13 +130,11 @@
       "receivedGifts" : [ {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 2,
@@ -166,18 +149,15 @@
       "receivedGifts" : [ {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 3,
@@ -192,18 +172,15 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 4,
@@ -218,13 +195,11 @@
       "receivedGifts" : [ {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 5,
@@ -239,8 +214,7 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     } ]
   }, {
@@ -257,13 +231,11 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -278,13 +250,11 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       } ]
     }, {
       "id" : 2,
@@ -299,18 +269,15 @@
       "receivedGifts" : [ {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 3,
@@ -325,13 +292,11 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 4,
@@ -346,8 +311,7 @@
       "receivedGifts" : [ {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       } ]
     }, {
       "id" : 5,
@@ -362,18 +326,15 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Castle",
         "price" : 15.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     } ]
   }, {
@@ -390,28 +351,23 @@
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 6
+        "category" : "Technology"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       } ]
     }, {
       "id" : 1,
@@ -426,23 +382,19 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 6
+        "category" : "Technology"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 2,
@@ -457,28 +409,23 @@
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 6
+        "category" : "Technology"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 3,
@@ -493,23 +440,19 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       } ]
     }, {
       "id" : 4,
@@ -524,18 +467,15 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 5,
@@ -550,18 +490,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 6,
@@ -576,13 +513,11 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     } ]
   }, {
@@ -599,8 +534,7 @@
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 6
+        "category" : "Technology"
       } ]
     }, {
       "id" : 1,
@@ -615,18 +549,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 2,
@@ -641,18 +572,15 @@
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       } ]
     }, {
       "id" : 3,
@@ -667,13 +595,11 @@
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       } ]
     }, {
       "id" : 4,
@@ -688,18 +614,15 @@
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 5,
@@ -714,18 +637,15 @@
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 6
+        "category" : "Technology"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 6,
@@ -740,13 +660,11 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 8,
@@ -761,8 +679,7 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -779,13 +696,11 @@
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 6
+        "category" : "Technology"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -800,23 +715,19 @@
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 2,
@@ -831,23 +742,19 @@
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       } ]
     }, {
       "id" : 3,
@@ -862,18 +769,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       } ]
     }, {
       "id" : 4,
@@ -888,18 +792,15 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
-        "category" : "Books",
-        "quantity" : 7
+        "category" : "Books"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 5,
@@ -914,23 +815,19 @@
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
-        "category" : "Technology",
-        "quantity" : 6
+        "category" : "Technology"
       }, {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Dress",
         "price" : 45.0,
-        "category" : "Clothes",
-        "quantity" : 3
+        "category" : "Clothes"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 6,
@@ -945,13 +842,11 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
         "price" : 10.0,
-        "category" : "Sweets",
-        "quantity" : 4
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 8,
@@ -966,8 +861,7 @@
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
-        "category" : "Toys",
-        "quantity" : 1
+        "category" : "Toys"
       } ]
     } ]
   } ]
