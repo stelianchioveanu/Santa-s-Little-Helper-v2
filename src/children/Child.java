@@ -20,6 +20,7 @@ public abstract class Child {
     protected Double assignedBudget;
     protected final ArrayList<Gift> receivedGifts;
     protected ElvesType elf;
+    protected final Double niceScoreBonus;
 
     public Child(final ChildLoader childLoader) {
         this.id = childLoader.getId();
@@ -35,6 +36,7 @@ public abstract class Child {
         this.assignedBudget = 0.0;
         this.receivedGifts = new ArrayList<>();
         this.elf = childLoader.getElf();
+        this.niceScoreBonus = childLoader.getNiceScoreBonus();
     }
 
     public Child(final Child child) {
@@ -49,6 +51,7 @@ public abstract class Child {
         this.assignedBudget = child.assignedBudget;
         this.receivedGifts = child.receivedGifts;
         this.elf = child.elf;
+        this.niceScoreBonus = child.niceScoreBonus;
     }
 
     /**
@@ -56,6 +59,10 @@ public abstract class Child {
      */
     public ArrayList<Category> getGiftsPreferences() {
         return giftsPreferences;
+    }
+
+    public Double getNiceScoreBonus() {
+        return niceScoreBonus;
     }
 
     /**
@@ -121,10 +128,16 @@ public abstract class Child {
         return receivedGifts;
     }
 
+    /**
+     * This method is used to get the elf type.
+     */
     public ElvesType getElf() {
         return elf;
     }
 
+    /**
+     * This method is used to set the elf type.
+     */
     public void setElf(ElvesType elf) {
         this.elf = elf;
     }

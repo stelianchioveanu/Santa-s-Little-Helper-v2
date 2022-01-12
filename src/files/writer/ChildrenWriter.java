@@ -35,7 +35,7 @@ public final class ChildrenWriter {
         this.niceScoreHistory.addAll(niceScoreHistory);
         this.assignedBudget = assignedBudget;
         this.receivedGifts = new ArrayList<>();
-        for (Gift gift : receivedGifts){
+        for (Gift gift : receivedGifts) {
             this.receivedGifts.add(new GiftWriter(gift.getProductName(),
                     gift.getPrice(), gift.getCategory()));
         }

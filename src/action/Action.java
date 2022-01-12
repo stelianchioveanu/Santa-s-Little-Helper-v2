@@ -6,6 +6,7 @@ import children.Child;
 import common.Constants;
 import database.Database;
 import enums.Category;
+import enums.ElvesType;
 import files.reader.ChildLoader;
 import files.reader.ChildUpdateLoader;
 import gift.Gift;
@@ -35,6 +36,17 @@ public final class Action {
         }
     }
 
+    public Double assignedBudgetCalculation(Child child, Double budgetUnit){
+        Double assignedBudget = child.getAverageScore() * budgetUnit;
+        if (child.getElf().equals(ElvesType.BLACK)){
+            assignedBudget = assignedBudget - assignedBudget * 30 / 100;
+        } else if (child.getElf().equals(ElvesType.PINK)) {
+            assignedBudget = assignedBudget + assignedBudget * 30 / 100;
+        }
+        return assignedBudget;
+    }
+
+
     /**
      * This method is used to distribute gifts to children.
      *
@@ -43,8 +55,7 @@ public final class Action {
      */
     public void distributionGifts(final Database database, final Double budgetUnit) {
         for (Child child : database.getChildrenList()) {
-
-            child.setAssignedBudget(child.getAverageScore() * budgetUnit);
+            child.setAssignedBudget(assignedBudgetCalculation(child, budgetUnit));
             Double copyBudget = child.getAssignedBudget();
 
             for (Category category : child.getGiftsPreferences()) {
@@ -53,10 +64,14 @@ public final class Action {
 
                     if (category.equals(gift.getCategory())) {
 
-                        if (copyBudget >= gift.getPrice()) {
-                            child.getReceivedGifts().add(gift);
-                            copyBudget -= gift.getPrice();
-                            break;
+                        if (gift.getQuantity() != 0) {
+
+                            if (copyBudget >= gift.getPrice()) {
+                                child.getReceivedGifts().add(gift);
+                                copyBudget -= gift.getPrice();
+                                gift.setQuantity(gift.getQuantity() - 1);
+                                break;
+                            }
                         }
                     }
                 }
@@ -104,27 +119,32 @@ public final class Action {
      */
     public Double budgetUnit(final Database database) {
         Double sumScores = 0.0;
+        Double averageScore;
 
         for (Child child : database.getChildrenList()) {
 
             if (child.getChildType().equals(Constants.BABY_STRING)) {
-                child.setAverageScore(Constants.BABY_SCORE);
+                averageScore = Constants.BABY_SCORE;
 
             } else if (child.getChildType().equals(Constants.KID_STRING)) {
                 Double niceScoreSum = child.getNiceScoreHistory().stream().
                         reduce(0.0, Double::sum);
-                child.setAverageScore(niceScoreSum / child.getNiceScoreHistory().size());
+                averageScore = niceScoreSum / child.getNiceScoreHistory().size();
 
             } else {
                 double niceScoreSum = 0.0;
                 for (int i = 0; i < child.getNiceScoreHistory().size(); i++) {
                     niceScoreSum += child.getNiceScoreHistory().get(i) * (i + 1);
                 }
-                child.setAverageScore(niceScoreSum
+                averageScore = niceScoreSum
                         / ((child.getNiceScoreHistory().size()
-                        * (child.getNiceScoreHistory().size() + 1)) / 2));
+                        * (child.getNiceScoreHistory().size() + 1)) / 2);
 
             }
+            averageScore += averageScore * child.getNiceScoreBonus() / 100;
+            if (averageScore > Constants.BABY_SCORE)
+                    averageScore = Constants.BABY_SCORE;
+            child.setAverageScore(averageScore);
             sumScores += child.getAverageScore();
         }
 
@@ -162,6 +182,8 @@ public final class Action {
                         child.getGiftsPreferences().remove(category);
                         child.getGiftsPreferences().add(0, category);
                     }
+
+                    child.setElf(childUpdateLoader.getElf());
 
                     break;
                 }

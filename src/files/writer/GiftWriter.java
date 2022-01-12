@@ -2,7 +2,7 @@ package files.writer;
 
 import enums.Category;
 
-public class GiftWriter {
+public final class GiftWriter {
     private final String productName;
     private final Double price;
     private final Category category;
