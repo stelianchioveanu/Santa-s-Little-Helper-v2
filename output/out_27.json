@@ -189,13 +189,9 @@
       "niceScoreHistory" : [ 4.0 ],
       "assignedBudget" : 66.92602040816327,
       "receivedGifts" : [ {
-        "productName" : "Monopoly",
-        "price" : 30.0,
+        "productName" : "Puzzle",
+        "price" : 50.0,
         "category" : "Board Games"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
-        "category" : "Sweets"
       }, {
         "productName" : "Castle",
         "price" : 15.0,
@@ -212,16 +208,12 @@
       "niceScoreHistory" : [ 2.0, 9.0, 6.0 ],
       "assignedBudget" : 134.86607142857144,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Chocolate",
-        "price" : 15.0,
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Monopoly",
-        "price" : 30.0,
+        "productName" : "Puzzle",
+        "price" : 50.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -243,8 +235,8 @@
         "price" : 15.0,
         "category" : "Toys"
       }, {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
+        "productName" : "Chocolate",
+        "price" : 15.0,
         "category" : "Sweets"
       }, {
         "productName" : "Twilight",
@@ -266,8 +258,8 @@
         "price" : 30.0,
         "category" : "Board Games"
       }, {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
+        "productName" : "Chocolate",
+        "price" : 15.0,
         "category" : "Sweets"
       }, {
         "productName" : "Twilight",
@@ -285,8 +277,8 @@
       "niceScoreHistory" : [ 7.0, 5.0 ],
       "assignedBudget" : 197.73596938775512,
       "receivedGifts" : [ {
-        "productName" : "Puzzle",
-        "price" : 50.0,
+        "productName" : "Monopoly",
+        "price" : 30.0,
         "category" : "Board Games"
       }, {
         "productName" : "Bag of Candy",
@@ -308,17 +300,21 @@
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 136.89413265306123,
       "receivedGifts" : [ {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
         "category" : "Sweets"
       }, {
         "productName" : "Castle",
         "price" : 15.0,
         "category" : "Toys"
       }, {
-        "productName" : "Puzzle",
-        "price" : 50.0,
+        "productName" : "Monopoly",
+        "price" : 30.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
       } ]
     } ]
   }, {

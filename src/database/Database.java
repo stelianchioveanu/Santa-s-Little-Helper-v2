@@ -4,6 +4,7 @@ import action.Action;
 import action.Round;
 import annual.AnnualChange;
 import children.Child;
+import enums.Cities;
 import files.reader.Input;
 import files.writer.ChildrenListWriter;
 import files.writer.ChildrenWriter;
@@ -12,6 +13,9 @@ import files.writer.AnnualChildrenWriter;
 import gift.Gift;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public final class Database {
 
@@ -20,6 +24,7 @@ public final class Database {
     private final ArrayList<Child> childrenList = new ArrayList<>();
     private final ArrayList<Gift> santaGiftsList = new ArrayList<>();
     private final ArrayList<AnnualChange> annualChangeList = new ArrayList<>();
+    private final HashSet<Cities> citiesHashSet = new LinkedHashSet<>();
 
     private static Database instance = null;
 
@@ -109,6 +114,10 @@ public final class Database {
 
     public ArrayList<AnnualChange> getAnnualChangeList() {
         return annualChangeList;
+    }
+
+    public HashSet<Cities> getCitiesHashSet() {
+        return citiesHashSet;
     }
 
     public void setNumberOfYears(final Integer numberOfYears) {

@@ -1,5 +1,10 @@
 package strategy;
 
+import children.Child;
+import database.Database;
+
+import java.util.ArrayList;
+
 public interface Strategy {
-    public void giftAssignment();
+    ArrayList<Child> childrenListSortByStrategy(Database database);
 }

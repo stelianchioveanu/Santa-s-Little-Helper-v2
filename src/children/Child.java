@@ -22,36 +22,19 @@ public abstract class Child {
     protected ElvesType elf;
     protected final Double niceScoreBonus;
 
-    public Child(final ChildLoader childLoader) {
-        this.id = childLoader.getId();
-        this.lastName = childLoader.getLastName();
-        this.firstName = childLoader.getFirstName();
-        this.age = childLoader.getAge();
-        this.city = childLoader.getCity();
-        this.giftsPreferences = new ArrayList<>();
-        this.giftsPreferences.addAll(childLoader.getGiftsPreferences());
-        this.averageScore = 0.0;
-        this.niceScoreHistory = new ArrayList<>();
-        this.niceScoreHistory.add(childLoader.getNiceScore());
-        this.assignedBudget = 0.0;
-        this.receivedGifts = new ArrayList<>();
-        this.elf = childLoader.getElf();
-        this.niceScoreBonus = childLoader.getNiceScoreBonus();
-    }
-
-    public Child(final Child child) {
-        this.id = child.id;
-        this.lastName = child.lastName;
-        this.firstName = child.firstName;
-        this.city = child.city;
-        this.age = child.age;
-        this.giftsPreferences = child.giftsPreferences;
-        this.averageScore = child.averageScore;
-        this.niceScoreHistory = child.niceScoreHistory;
-        this.assignedBudget = child.assignedBudget;
-        this.receivedGifts = child.receivedGifts;
-        this.elf = child.elf;
-        this.niceScoreBonus = child.niceScoreBonus;
+    public Child(final ChildBuilder child) {
+        this.id = child.getId();
+        this.lastName = child.getLastName();
+        this.firstName = child.getFirstName();
+        this.city = child.getCity();
+        this.age = child.getAge();
+        this.giftsPreferences = child.getGiftsPreferences();
+        this.averageScore = child.getAverageScore();
+        this.niceScoreHistory = child.getNiceScoreHistory();
+        this.assignedBudget = child.getAssignedBudget();
+        this.receivedGifts = child.getReceivedGifts();
+        this.elf = child.getElf();
+        this.niceScoreBonus = child.getNiceScoreBonus();
     }
 
     /**
@@ -167,4 +150,5 @@ public abstract class Child {
      * This method is used to get the child's type.
      */
     public abstract String getChildType();
+
 }

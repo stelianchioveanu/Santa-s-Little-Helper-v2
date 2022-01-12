@@ -2,6 +2,10 @@ package action;
 
 import annual.AnnualChange;
 import database.Database;
+import strategy.Distribution;
+import strategy.IdStrategy;
+import strategy.NiceScoreCityStrategy;
+import strategy.NiceScoreStrategy;
 
 public final class Round {
     private final Integer roundNumber;
@@ -21,11 +25,17 @@ public final class Round {
     public void currentRound(final Database database) {
         Action action = new Action();
         AnnualChange currentAnnualChange;
+        Distribution distribution = new Distribution(new IdStrategy());
 
         if (this.roundNumber != 0) {
-            action.increaseAge(database);
-
             currentAnnualChange = database.getAnnualChangeList().get(this.roundNumber - 1);
+
+            switch (currentAnnualChange.getStrategy()) {
+                case NICE_SCORE -> distribution = new Distribution(new NiceScoreStrategy());
+                case NICE_SCORE_CITY -> distribution = new Distribution(new NiceScoreCityStrategy());
+            }
+
+            action.increaseAge(database);
             database.setSantaBudget(currentAnnualChange.getNewSantaBudget());
 
             action.addNewChildren(database, currentAnnualChange.getNewChildren());
@@ -36,6 +46,8 @@ public final class Round {
         }
 
         action.sortGifts(database);
-        action.distributionGifts(database, action.budgetUnit(database));
+        action.setChildrenAssignedBudget(database, action.budgetUnit(database));
+        distribution.executeStrategy(database);
+        action.yellowElf(database);
     }
 }
