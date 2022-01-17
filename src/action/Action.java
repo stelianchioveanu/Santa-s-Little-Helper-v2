@@ -2,7 +2,6 @@ package action;
 
 import annual.AnnualChange;
 import children.ChildBuilder;
-import children.GetChildFactory;
 import children.Child;
 import common.Constants;
 import database.Database;
@@ -21,7 +20,7 @@ import java.util.Collections;
 public final class Action {
 
     /**
-     * This method add new children in database list using the child factory.
+     * This method add new children in database list using the child builder.
      *
      * @param database             database
      * @param childLoaderArrayList input list with children
@@ -44,12 +43,21 @@ public final class Action {
         }
     }
 
+    /**
+     * This method is used to calculate the assigned budget.
+     *
+     * @param child current child
+     * @param budgetUnit budget unit
+     */
     public Double assignedBudgetCalculation(final Child child, final Double budgetUnit) {
         double assignedBudget = child.getAverageScore() * budgetUnit;
+
         if (child.getElf().equals(ElvesType.BLACK)) {
-            assignedBudget = assignedBudget - assignedBudget * 30 / 100;
+            assignedBudget -= assignedBudget * Constants.ELF_DISCOUNT / Constants.PERCENT;
+
         } else if (child.getElf().equals(ElvesType.PINK)) {
-            assignedBudget = assignedBudget + assignedBudget * 30 / 100;
+            assignedBudget += assignedBudget * Constants.ELF_DISCOUNT / Constants.PERCENT;
+
         }
         return assignedBudget;
     }

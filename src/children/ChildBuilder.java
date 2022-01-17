@@ -7,23 +7,23 @@ import gift.Gift;
 
 import java.util.ArrayList;
 
-public class ChildBuilder {
-    private Integer id;
-    private String lastName;
-    private String firstName;
-    private Cities city;
-    private Integer age;
-    private ArrayList<Category> giftsPreferences = new ArrayList<>();
+public final class ChildBuilder {
+    private final Integer id;
+    private final String lastName;
+    private final String firstName;
+    private final Cities city;
+    private final Integer age;
+    private final ArrayList<Category> giftsPreferences = new ArrayList<>();
     private Double averageScore = 0.0;
     private ArrayList<Double> niceScoreHistory = new ArrayList<>();
     private Double assignedBudget = 0.0;
-    private ArrayList<Gift> receivedGifts = new ArrayList<>();
-    private ElvesType elf;
-    private Double niceScoreBonus;
-    private Double niceScore;
+    private final ArrayList<Gift> receivedGifts = new ArrayList<>();
+    private final ElvesType elf;
+    private final Double niceScoreBonus;
 
-    public ChildBuilder(Integer id, String lastName, String firstName,
-                   Cities city, Integer age, ElvesType elf, Double niceScoreBonus, ArrayList<Category> giftsPreferences) {
+    public ChildBuilder(final Integer id, final String lastName, final String firstName,
+                        final Cities city, final Integer age, final ElvesType elf,
+                        final Double niceScoreBonus, final ArrayList<Category> giftsPreferences) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -35,27 +35,27 @@ public class ChildBuilder {
     }
 
 
-    public ChildBuilder averageScore(Double averageScore) {
+    public ChildBuilder averageScore(final Double averageScore) {
         this.averageScore = averageScore;
         return this;
     }
 
-    public ChildBuilder niceScoreHistory(ArrayList<Double> niceScoreHistory) {
+    public ChildBuilder niceScoreHistory(final ArrayList<Double> niceScoreHistory) {
         this.niceScoreHistory = niceScoreHistory;
         return this;
     }
 
-    public ChildBuilder assignedBudget(Double assignedBudget) {
+    public ChildBuilder assignedBudget(final Double assignedBudget) {
         this.assignedBudget = assignedBudget;
         return this;
     }
 
-    public ChildBuilder receivedGifts(ArrayList<Gift> receivedGifts) {
+    public ChildBuilder receivedGifts(final ArrayList<Gift> receivedGifts) {
         this.receivedGifts.addAll(receivedGifts);
         return this;
     }
 
-    public ChildBuilder niceScore(Double niceScore) {
+    public ChildBuilder niceScore(final Double niceScore) {
         this.niceScoreHistory.add(niceScore);
         return this;
     }
@@ -112,5 +112,4 @@ public class ChildBuilder {
     public Double getNiceScoreBonus() {
         return niceScoreBonus;
     }
-
 }

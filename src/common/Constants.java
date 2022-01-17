@@ -26,5 +26,7 @@ public final class Constants {
     public static final String BABY_STRING = "Baby";
     public static final String KID_STRING = "Kid";
     public static final String TEEN_STRING = "Teen";
+    public static final Integer PERCENT = 100;
+    public static final Integer ELF_DISCOUNT = 30;
 
 }

@@ -4,12 +4,14 @@ import children.Child;
 import database.Database;
 import enums.Cities;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
-public class NiceScoreCityStrategy implements Strategy {
+public final class NiceScoreCityStrategy implements Strategy {
     @Override
-    public ArrayList<Child> childrenListSortByStrategy(Database database) {
-        HashMap<Cities, Double> citiesHashMap = new LinkedHashMap<>();
+    public ArrayList<Child> childrenListSortByStrategy(final Database database) {
+        HashMap<Cities, Double> citiesHashMap = new HashMap<>();
         ArrayList<Child> childrenListSorted = new ArrayList<>();
 
         for (Cities city : database.getCitiesHashSet()) {
@@ -24,7 +26,8 @@ public class NiceScoreCityStrategy implements Strategy {
             citiesHashMap.put(city, niceScoreCity / counter);
         }
 
-        ArrayList<Map.Entry<Cities, Double>> citiesArrayListSorted = new ArrayList<>(citiesHashMap.entrySet());
+        ArrayList<Map.Entry<Cities, Double>> citiesArrayListSorted =
+                new ArrayList<>(citiesHashMap.entrySet());
         citiesArrayListSorted.sort((o1, o2) -> {
             if (o1.getValue().equals(o2.getValue())) {
                 return o1.getKey().getValue().compareTo(o2.getKey().getValue());
