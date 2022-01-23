@@ -34,32 +34,55 @@ public final class ChildBuilder {
         this.giftsPreferences.addAll(giftsPreferences);
     }
 
-
-    public ChildBuilder averageScore(final Double averageScore) {
-        this.averageScore = averageScore;
+    /**
+     * This method is used to set the average score.
+     *
+     */
+    public ChildBuilder averageScore(final Double score) {
+        this.averageScore = score;
         return this;
     }
 
-    public ChildBuilder niceScoreHistory(final ArrayList<Double> niceScoreHistory) {
-        this.niceScoreHistory = niceScoreHistory;
+    /**
+     * This method is used to set nice score history.
+     *
+     */
+    public ChildBuilder niceScoreHistory(final ArrayList<Double> scoreHistory) {
+        this.niceScoreHistory = scoreHistory;
         return this;
     }
 
-    public ChildBuilder assignedBudget(final Double assignedBudget) {
-        this.assignedBudget = assignedBudget;
+    /**
+     * This method is used to set the assigned budget.
+     *
+     */
+    public ChildBuilder assignedBudget(final Double budget) {
+        this.assignedBudget = budget;
         return this;
     }
 
-    public ChildBuilder receivedGifts(final ArrayList<Gift> receivedGifts) {
-        this.receivedGifts.addAll(receivedGifts);
+    /**
+     * This method is used to set the received gifts.
+     *
+     */
+    public ChildBuilder receivedGifts(final ArrayList<Gift> gifts) {
+        this.receivedGifts.addAll(gifts);
         return this;
     }
 
+    /**
+     * This method is used to set the nice score.
+     *
+     */
     public ChildBuilder niceScore(final Double niceScore) {
         this.niceScoreHistory.add(niceScore);
         return this;
     }
 
+    /**
+     * This method is used to build the child.
+     *
+     */
     public Child build() {
         GetChildFactory childFactory = new GetChildFactory();
         return childFactory.getChildByChildBuilder(this);

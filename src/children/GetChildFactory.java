@@ -5,9 +5,10 @@ import common.Constants;
 public final class GetChildFactory {
 
     /**
-     * This method is used to create a child by his age.
+     * This method create a child by his age.
      *
-     * @param child child
+     * @param child child builder
+     * @return new child
      */
     public Child getChildByChildBuilder(final ChildBuilder child) {
         Child newChild = null;

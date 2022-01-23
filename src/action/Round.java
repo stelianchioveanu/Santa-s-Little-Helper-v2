@@ -30,10 +30,11 @@ public final class Round {
         if (this.roundNumber != 0) {
             currentAnnualChange = database.getAnnualChangeList().get(this.roundNumber - 1);
 
-            switch (currentAnnualChange.getStrategy()) {
-                case NICE_SCORE -> distribution = new Distribution(new NiceScoreStrategy());
-                case NICE_SCORE_CITY -> distribution = new Distribution(new NiceScoreCityStrategy());
-            }
+            distribution = switch (currentAnnualChange.getStrategy()) {
+                case NICE_SCORE -> new Distribution(new NiceScoreStrategy());
+                case NICE_SCORE_CITY ->  new Distribution(new NiceScoreCityStrategy());
+                default -> new Distribution(new IdStrategy());
+            };
 
             action.increaseAge(database);
             database.setSantaBudget(currentAnnualChange.getNewSantaBudget());

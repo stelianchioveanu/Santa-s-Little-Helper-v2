@@ -7,6 +7,13 @@ import database.Database;
 import java.util.ArrayList;
 
 public final class NiceScoreStrategy implements Strategy {
+
+    /**
+     * This method is used to create a list of children sorted by nice score strategy.
+     *
+     * @param database database
+     * @return children arraylist
+     */
     @Override
     public ArrayList<Child> childrenListSortByStrategy(final Database database) {
         ArrayList<Child> sortedArrayChildren = new ArrayList<>(database.getChildrenList());

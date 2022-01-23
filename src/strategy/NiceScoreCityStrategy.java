@@ -9,6 +9,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public final class NiceScoreCityStrategy implements Strategy {
+    /**
+     * This method is used to create a list of children sorted by nice score strategy.
+     *
+     * @param database database
+     * @return children arraylist
+     */
     @Override
     public ArrayList<Child> childrenListSortByStrategy(final Database database) {
         HashMap<Cities, Double> citiesHashMap = new HashMap<>();

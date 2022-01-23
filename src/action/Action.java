@@ -29,9 +29,10 @@ public final class Action {
                                final List<ChildLoader> childLoaderArrayList) {
         for (ChildLoader childLoader : childLoaderArrayList) {
 
-            ChildBuilder childBuilder = new ChildBuilder(childLoader.getId(), childLoader.getLastName(),
-                    childLoader.getFirstName(), childLoader.getCity(), childLoader.getAge(),
-                    childLoader.getElf(), childLoader.getNiceScoreBonus(), childLoader.getGiftsPreferences());
+            ChildBuilder childBuilder = new ChildBuilder(childLoader.getId(),
+                    childLoader.getLastName(), childLoader.getFirstName(), childLoader.getCity(),
+                    childLoader.getAge(), childLoader.getElf(), childLoader.getNiceScoreBonus(),
+                    childLoader.getGiftsPreferences());
 
             if (childBuilder.build() != null) {
                 database.getChildrenList().add(childBuilder
@@ -46,8 +47,9 @@ public final class Action {
     /**
      * This method is used to calculate the assigned budget.
      *
-     * @param child current child
+     * @param child      current child
      * @param budgetUnit budget unit
+     * @return assigned budget
      */
     public Double assignedBudgetCalculation(final Child child, final Double budgetUnit) {
         double assignedBudget = child.getAverageScore() * budgetUnit;
@@ -62,6 +64,12 @@ public final class Action {
         return assignedBudget;
     }
 
+    /**
+     * This method is used to set the assigned budget.
+     *
+     * @param database   database
+     * @param budgetUnit budget unit
+     */
     public void setChildrenAssignedBudget(final Database database, final Double budgetUnit) {
         for (Child child : database.getChildrenList()) {
             child.setAssignedBudget(assignedBudgetCalculation(child, budgetUnit));
@@ -71,6 +79,9 @@ public final class Action {
 
     /**
      * This method is used to distribute gifts to children.
+     *
+     * @param santaGifts   santa gifts
+     * @param childrenList children list sorted by strategy
      */
     public void distributionGifts(final ArrayList<Child> childrenList,
                                   final ArrayList<Gift> santaGifts) {
@@ -120,8 +131,9 @@ public final class Action {
                 database.getChildrenList().remove(i);
                 i--;
             } else {
-                newChild = new ChildBuilder(currentChild.getId(), currentChild.getLastName(),currentChild.getFirstName(),
-                        currentChild.getCity(),currentChild.getAge(), currentChild.getElf(), currentChild.getNiceScoreBonus(),
+                newChild = new ChildBuilder(currentChild.getId(), currentChild.getLastName(),
+                        currentChild.getFirstName(), currentChild.getCity(), currentChild.getAge(),
+                        currentChild.getElf(), currentChild.getNiceScoreBonus(),
                         currentChild.getGiftsPreferences())
                         .niceScoreHistory(currentChild.getNiceScoreHistory())
                         .assignedBudget(currentChild.getAssignedBudget())
@@ -138,6 +150,7 @@ public final class Action {
      * This method is used to calculate the budget unit and set the average score.
      *
      * @param database database
+     * @return budget unit
      */
     public Double budgetUnit(final Database database) {
         Double sumScores = 0.0;
@@ -163,7 +176,7 @@ public final class Action {
                         * (child.getNiceScoreHistory().size() + 1)) / 2);
 
             }
-            averageScore += averageScore * child.getNiceScoreBonus() / 100;
+            averageScore += averageScore * child.getNiceScoreBonus() / Constants.PERCENT;
             if (averageScore > Constants.BABY_SCORE) {
                 averageScore = Constants.BABY_SCORE;
             }
@@ -214,6 +227,11 @@ public final class Action {
         }
     }
 
+    /**
+     * This method is used to apply the yellow elf's bonuses.
+     *
+     * @param database database
+     */
     public void yellowElf(final Database database) {
         for (Child child : database.getChildrenList()) {
 

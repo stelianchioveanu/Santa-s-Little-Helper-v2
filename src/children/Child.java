@@ -3,7 +3,6 @@ package children;
 import enums.Category;
 import enums.Cities;
 import enums.ElvesType;
-import files.reader.ChildLoader;
 import gift.Gift;
 
 import java.util.ArrayList;
@@ -44,6 +43,9 @@ public abstract class Child {
         return giftsPreferences;
     }
 
+    /**
+     * This method is used to get the nice score bonus.
+     */
     public Double getNiceScoreBonus() {
         return niceScoreBonus;
     }
@@ -121,7 +123,7 @@ public abstract class Child {
     /**
      * This method is used to set the elf type.
      */
-    public void setElf(ElvesType elf) {
+    public void setElf(final ElvesType elf) {
         this.elf = elf;
     }
 
