@@ -1,14 +1,8 @@
 package children;
 
-import files.reader.ChildLoader;
-
 public final class Baby extends Child {
 
-    public Baby(final ChildLoader childLoader) {
-        super(childLoader);
-    }
-
-    public Baby(final Child child) {
+    public Baby(final ChildBuilder child) {
         super((child));
     }
 

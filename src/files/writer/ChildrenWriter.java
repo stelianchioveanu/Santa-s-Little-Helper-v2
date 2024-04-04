@@ -16,7 +16,7 @@ public final class ChildrenWriter {
     private final Double averageScore;
     private final ArrayList<Double> niceScoreHistory;
     private final Double assignedBudget;
-    private final ArrayList<Gift> receivedGifts;
+    private final ArrayList<GiftWriter> receivedGifts;
 
     public ChildrenWriter(final Integer id, final String lastName,
                  final String firstName, final Cities city,
@@ -35,7 +35,10 @@ public final class ChildrenWriter {
         this.niceScoreHistory.addAll(niceScoreHistory);
         this.assignedBudget = assignedBudget;
         this.receivedGifts = new ArrayList<>();
-        this.receivedGifts.addAll(receivedGifts);
+        for (Gift gift : receivedGifts) {
+            this.receivedGifts.add(new GiftWriter(gift.getProductName(),
+                    gift.getPrice(), gift.getCategory()));
+        }
     }
 
     public ArrayList<Category> getGiftsPreferences() {
@@ -74,7 +77,7 @@ public final class ChildrenWriter {
         return averageScore;
     }
 
-    public ArrayList<Gift> getReceivedGifts() {
+    public ArrayList<GiftWriter> getReceivedGifts() {
         return receivedGifts;
     }
 }

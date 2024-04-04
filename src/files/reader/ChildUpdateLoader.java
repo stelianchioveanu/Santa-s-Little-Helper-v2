@@ -32,7 +32,7 @@ public abstract class ChildUpdateLoader {
         return giftsPreferences;
     }
 
-    public ElvesType getElf() {
+    public final ElvesType getElf() {
         return elf;
     }
 }

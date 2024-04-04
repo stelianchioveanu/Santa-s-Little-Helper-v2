@@ -6,7 +6,7 @@ public final class Gift {
     private final String productName;
     private final Double price;
     private final Category category;
-    private final Integer quantity;
+    private Integer quantity;
 
     public Gift() {
         this.productName = "";
@@ -29,5 +29,9 @@ public final class Gift {
 
     public Integer getQuantity() {
         return quantity;
+    }
+
+    public void setQuantity(final Integer quantity) {
+        this.quantity = quantity;
     }
 }

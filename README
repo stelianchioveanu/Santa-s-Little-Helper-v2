@@ -1,0 +1,104 @@
+================================================================================
+----------------- Copyright Chioveanu Stelian-Ovidiu 2021-2022 -----------------
+================================================================================
+
+======= POO - PROIECT - ETAPA 2 - SANTA CLAUS IS COMING TO ACS STUDENTS ========
+
+Ianuarie 2022
+https://ocw.cs.pub.ro/courses/poo-ca-cd/teme/proiect/etapa2
+
+================================ DESCRIERE =====================================
+
+        Tema consta in construirea unui database ce are in componenta datele mo-
+sului: bugetul sau, numarul de ani in care viziteaza copiii, lista de copii,
+lista de cadouri si lista de schimbari anuale. Pentru fiecare copil din lista se
+vor apela metode cu scopul schimbarii datelor acestora. Fiecare an reprezinta o
+runda de schimbari.
+
+================================ COMPONENTA ====================================
+
+------------------------------ PACKAGE - MAIN ----------------------------------
+    - clasa "Main": in acesta clasa sunt apelate metodele din clasa
+"FilesManagement" care constau in crearea directorului de output, golirea
+acestuia si crearea de fisiere de tip output file. Ea mai contine si punctul de
+start al construirii database-ului.
+------------------------------ PACKAGE - FILES ---------------------------------
+    - clasa "FilesManagement": contine metodele amintite mai sus.
+    - PACKAGE - READER : contine clasa "Reader" cu metoda de citire a datelor,
+aceasta intorcand un obiect de tip "Input" ce va fi transferat in database. Res-
+tul claselor sun utilizate pentru citire deoarece am folosit un "ObjectMapper".
+    - PACKAGE - WRITER : contine clasa "Writer" cu metoda de scriere a datelor.
+Restul claselor sunt utilizate pentru scriere deoarece am folosit un
+"ObjectMapper".
+---------------------------- PACKAGE - DATABASE --------------------------------
+    - clasa "Database": numarul de instantieri ale unei clase este restrictio-
+nat la un singur obiect fiind utilizat un Singleton Pattern(Lazy instantiation).
+Acest obiect este chiar database-ul regasit in "Main". Clasa contine o metoda
+"entryPoint" apelata in "Main" prin care sunt introduse datele in database cu
+ajutorul metodei "populateDatabase". Pentru fiecare an se creeaza un obiect de
+tip "Round" care va reprezenta runda curenta. Dupa terminarea rundei lista de
+copii va fi copiata si transmisa catre "Writer". In final database-ul este golit
+cu ajutorul metodei "clearDatabase"(deoarece programul nu se opreste la
+trecerea de la un fisier input la altul suntem nevoiti sa golim si sa umplem
+database-ul de fiecare data).
+------------------------------ PACKAGE - ACTION --------------------------------
+    - clasa "Round": contine o metoda in care se construieste un obiect de tip
+"Action" si sunt apelate metodele corespunzatoare acestuia in functie de numa-
+rul rundei(prima runda contine un numar mai mic de actiuni decat celelalte deoa-
+rece nu contine update-uri): increaseAge, setSantaBudget, addNewChildren,
+updateChild, sortGifts(sortam cadourile in functie de pret pentru o distribuire
+simplificata), distributionGifts, budgetUnit.
+    - clasa "Action": contine urmatoarele metode:
+        a) addNewChildren : adauga un nou copil in lista mosului utilizand child
+builder-ul;
+        b) assignedBudgetCalculation : calculeaza bugetul alocat copilului in
+functie de budget unit
+        c) setChildrenAssignedBudget : atribuie bugetele copiilor
+        d) distributionGifts: distribuie cadourile copiilor ordonati in functie
+de strategie;
+        e) increaseAge : incrementeaza vartsa copiilor si se verifica daca aces-
+tia trec in alta categorie de varsta. In acest caz se construieste un nou copil
+cu aceleasi data dar de o categorie de varsta diferita care este adaugat in lo-
+cul copilului curent;
+        f) budgetUnit: seteaza average scorul fiecarui copil si calculeaza
+budget unit-ul pe care il returneaza(de observat ca metoda de calcul al average
+scorului pentru rundele urmatoare functioneaza si pentru prima runda);
+        g) sortGifts: sorteaza lista de cadouri a mosului in functie de pretul
+acestora;
+        h) updateChild: adauga noul nice score la lista de scoruri si modifica
+lista de preferinte.
+        i) yellowElf: aplica bonusurile elfului galben
+---------------------------- PACKAGE - CHILDREN --------------------------------
+    Acest pachet contine clase ce compun 2 design pattern-uri: factory si
+builder:
+    - clasa abstracta "Child": ce contine datele generale ale unui copil;
+    - clasele "Baby", "Teen" si "Kid" mostenesc clasa "Child" si suprascriu
+metoda "getChildType" ce intoarce un String reprezentata chiar de numele acesto-
+ra;
+    - clasa "GetChildFactory": contine o metoda ce returneaza un obiect de tip
+child in functie de tipul acestuia(baby, teen, kid).
+    - clasa "ChildBuilder": contine un design pattern de tip builder. In clasa
+"Child" existau 2 constructori: unul care primea ca parametru un alt Child si
+unul un ChildLoader deoarece unele campuri nu se regaseau la ambele. Pentru
+rezolvarea acestei probleme am utilizat un Builder avand astfe un singur
+constructor in "Child".
+------------------------------ PACKAGE - GIFT ----------------------------------
+    - clasa "Gift": contine informatiile unui cadou ce sunt primite din input.
+------------------------------ PACKAGE - ANNUAL --------------------------------
+    - clasa "AnnualChange": contine informatiile unei schimbari anuale ce sunt
+primite din input.
+------------------------------ PACKAGE - COMMON --------------------------------
+    - clasa "Constants": contine constante.
+----------------------------- PACKAGE - STRATEGY -------------------------------
+    Acest pachet contine clase ce compun un design pattern de tip "strategy".
+    - clasa "Distribution": contine o strategie si o metoda ce executa strategia
+prin apelarea metodei "childrenListSortByStrategy" din interfata "Strategy"
+    - clasa "Strategy": interfata ce contine metoda "childrenListSortByStrategy"
+prin care se returneaza o lista de copii ordonati in functie de strategie
+    - clasele "IdStrategy", "NiceScoreStrategy" si "NiceScoreCityStrategy"
+implementeaza interfata "Strategy". Acestea suprascriu metoda
+"childrenListSortByStrategy" prin care returneaza o lista de copii ordonati in
+functie de strategie.
+================================================================================
+--------------------------------------------------------------------------------
+================================================================================
